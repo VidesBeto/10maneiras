@@ -1,11 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowRight, Check, Heart, Sparkles, BookOpen, MessageCircle, Sprout, Clock3 } from "lucide-react";
+import { ArrowRight, Check, Heart, Sparkles, BookOpen } from "lucide-react";
 
 export const Route = createFileRoute("/")({ component: Index });
 
 const buyUrl = "#"; // Conectar à URL da Eduzz quando ela estiver definida.
-const ebookUrl = "/10-Dicas-para-Desenvolver-a-Autonomia-de-Criancas-Autistas.pdf";
-
 const pains = [
   "Você quer incentivar a participação do seu filho, mas nem sempre sabe por onde começar?",
   "Tarefas simples da rotina acabam exigindo ajuda do começo ao fim?",
